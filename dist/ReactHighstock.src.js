@@ -7,7 +7,7 @@
 		exports["ReactHighstock"] = factory(require("react"), require("highcharts/highstock"));
 	else
 		root["ReactHighstock"] = factory(root["React"], root["Highcharts"]);
-})(this, function(__WEBPACK_EXTERNAL_MODULE_3__, __WEBPACK_EXTERNAL_MODULE_8__) {
+})(this, function(__WEBPACK_EXTERNAL_MODULE_3__, __WEBPACK_EXTERNAL_MODULE_7__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -54,7 +54,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 0 */
 /***/ (function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__(7);
+	module.exports = __webpack_require__(6);
 
 
 /***/ }),
@@ -154,19 +154,18 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ }),
 /* 4 */,
 /* 5 */,
-/* 6 */,
-/* 7 */
+/* 6 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 
-	module.exports = __webpack_require__(2)('StockChart', __webpack_require__(8));
+	module.exports = __webpack_require__(2)('StockChart', __webpack_require__(7));
 
 /***/ }),
-/* 8 */
+/* 7 */
 /***/ (function(module, exports) {
 
-	module.exports = __WEBPACK_EXTERNAL_MODULE_8__;
+	module.exports = __WEBPACK_EXTERNAL_MODULE_7__;
 
 /***/ })
 /******/ ])

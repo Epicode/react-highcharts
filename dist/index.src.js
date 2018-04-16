@@ -1,13 +1,13 @@
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
-		module.exports = factory(require("react"), require("highcharts"));
+		module.exports = factory(require("react"));
 	else if(typeof define === 'function' && define.amd)
-		define(["react", "highcharts"], factory);
+		define(["react"], factory);
 	else if(typeof exports === 'object')
-		exports["index"] = factory(require("react"), require("highcharts"));
+		exports["index"] = factory(require("react"));
 	else
-		root["index"] = factory(root["React"], root["Highcharts"]);
-})(this, function(__WEBPACK_EXTERNAL_MODULE_3__, __WEBPACK_EXTERNAL_MODULE_4__) {
+		root["index"] = factory(root["React"]);
+})(this, function(__WEBPACK_EXTERNAL_MODULE_3__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -63,7 +63,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	'use strict';
 
-	module.exports = __webpack_require__(2)('Chart', Highcharts || __webpack_require__(4));
+	module.exports = __webpack_require__(2)('Chart', Highcharts);
 
 /***/ }),
 /* 2 */
@@ -157,12 +157,6 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ (function(module, exports) {
 
 	module.exports = __WEBPACK_EXTERNAL_MODULE_3__;
-
-/***/ }),
-/* 4 */
-/***/ (function(module, exports) {
-
-	module.exports = __WEBPACK_EXTERNAL_MODULE_4__;
 
 /***/ })
 /******/ ])
